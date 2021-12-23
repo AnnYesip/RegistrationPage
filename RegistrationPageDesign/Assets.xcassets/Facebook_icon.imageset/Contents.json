@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "Facebook_F_icon.svg.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "preserves-vector-representation" : true
+  }
+}

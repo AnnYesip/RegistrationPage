@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8703A0F02731D4BC006BBEE2 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8703A0EF2731D4BC006BBEE2 /* ColorExtension.swift */; };
+		8703A0F22731D740006BBEE2 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8703A0F12731D740006BBEE2 /* ViewExtension.swift */; };
 		87FCCD202730064A0077F780 /* RegistrationPageDesignApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FCCD1F2730064A0077F780 /* RegistrationPageDesignApp.swift */; };
 		87FCCD222730064A0077F780 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FCCD212730064A0077F780 /* ContentView.swift */; };
 		87FCCD242730064C0077F780 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87FCCD232730064C0077F780 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8703A0EF2731D4BC006BBEE2 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		8703A0F12731D740006BBEE2 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
 		87FCCD1C2730064A0077F780 /* RegistrationPageDesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RegistrationPageDesign.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87FCCD1F2730064A0077F780 /* RegistrationPageDesignApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationPageDesignApp.swift; sourceTree = "<group>"; };
 		87FCCD212730064A0077F780 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +58,8 @@
 			children = (
 				87FCCD1F2730064A0077F780 /* RegistrationPageDesignApp.swift */,
 				87FCCD212730064A0077F780 /* ContentView.swift */,
+				8703A0F12731D740006BBEE2 /* ViewExtension.swift */,
+				8703A0EF2731D4BC006BBEE2 /* ColorExtension.swift */,
 				87FCCD232730064C0077F780 /* Assets.xcassets */,
 				87FCCD282730064C0077F780 /* Info.plist */,
 				87FCCD252730064C0077F780 /* Preview Content */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8703A0F02731D4BC006BBEE2 /* ColorExtension.swift in Sources */,
 				87FCCD222730064A0077F780 /* ContentView.swift in Sources */,
+				8703A0F22731D740006BBEE2 /* ViewExtension.swift in Sources */,
 				87FCCD202730064A0077F780 /* RegistrationPageDesignApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
